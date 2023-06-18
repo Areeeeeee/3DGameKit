@@ -7,3 +7,5 @@ https://assetstore.unity.com/packages/templates/tutorials/3d-game-kit-115747
 
 Wwise:
 https://www.audiokinetic.com/en/products/wwise/
+
+*This project's audio is not to be used in commercial projects*
