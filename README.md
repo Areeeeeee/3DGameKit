@@ -12,4 +12,6 @@ https://assetstore.unity.com/packages/templates/tutorials/3d-game-kit-115747
 
 More about Wwise: https://www.audiokinetic.com/en/products/wwise/
 
+![](Assets/3DGameKit/Art/Banner/3DGameKitBanner.png)
+
 *This project's redesigned audio is not to be used in commercial projects*
