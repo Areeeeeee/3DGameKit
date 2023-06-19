@@ -1,4 +1,4 @@
-#Berklee Wwise for Musicians Final Project SU2023 - Audio Redesign using Wwise
+#Berklee Wwise for Musicians Final Project SU2023 - Audio Redesign using Wwise#
 
 **Ari Graine**
 
