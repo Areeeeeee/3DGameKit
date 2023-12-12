@@ -9,6 +9,41 @@
 							<ObjectRef Name="System" ID="{12AA28FD-8EAA-447F-9703-AFEC5DE13682}" WorkUnitID="{D38600F3-480A-495B-93ED-0369A70BA05C}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{513DF84D-0947-4E48-AD5D-C9FA257C98CB}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="SFX" ID="{E1D61319-B323-4874-B89E-2C97613A7716}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="UI" ID="{6C0711BE-9470-4DF9-8DB1-133B679A5FAF}">
+							<ObjectLists/>
+						</Bus>
+						<AuxBus Name="Reverb_Arena" ID="{E8FCED5A-8326-41A4-873F-5647E3623B74}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Medium" ID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Reverb_SmallCave" ID="{4C25769F-9C0F-455B-999A-6E4E33BE09C4}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Plate_Small" ID="{5681977F-CD7F-4D09-AA58-118BEFA48C8C}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Reverb_Outdoor" ID="{5BCA4EEA-F5A7-4153-A50C-793FF0C28BEA}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
 			</ChildrenList>

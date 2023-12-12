@@ -1,0 +1,56 @@
+Event	ID	Name			Wwise Object Path	Notes
+	452547817	Stop_All			\Default Work Unit\Stop_All	
+	1817020445	SetStateBoss			\Default Work Unit\SetStateBoss	
+	1917263390	StopMusic			\Default Work Unit\StopMusic	
+	2850775516	Set_State_Layer_02			\Default Work Unit\Set_State_Layer_02	
+	2850775517	Set_State_Layer_03			\Default Work Unit\Set_State_Layer_03	
+	2850775519	Set_State_Layer_01			\Default Work Unit\Set_State_Layer_01	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	3092587493	Pause			\Default Work Unit\Pause	
+	3412868374	UnPause			\Default Work Unit\UnPause	
+	3612438723	SetStateExplore			\Default Work Unit\SetStateExplore	
+	3922700271	SetStateExploreReduced			\Default Work Unit\SetStateExploreReduced	
+	4243229219	Play_StartSFX			\Default Work Unit\Play_StartSFX	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	766723505	Game_State			\Default Work Unit\Game_State	
+	3092587493	Pause			\Default Work Unit\Pause	
+	3776881979	Explore_States			\Default Work Unit\Explore_States	
+
+State	ID	Name	State Group			Notes
+	161092836	ExploreIntro	Game_State			
+	579523862	Explore	Game_State			
+	748895195	None	Game_State			
+	1560169506	Boss	Game_State			
+	748895195	None	Pause			
+	930712164	Off	Pause			
+	1651971902	On	Pause			
+	748895195	None	Explore_States			
+	3298531297	Layer1	Explore_States			
+	3298531298	Layer2	Explore_States			
+	3298531299	Layer3	Explore_States			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	32533146	Layer2	Explore_States	\Interactive Music Hierarchy\Default Work Unit\Music\Explore\Explore\3dgamekit_Explore_Layer3_Stereo Out		
+	127949704	Layer1	Explore_States	\Interactive Music Hierarchy\Default Work Unit\Music\Explore\Explore\3dgamekit_Explore_Layer3_Stereo Out		
+	642495939	Layer1	Explore_States	\Interactive Music Hierarchy\Default Work Unit\Music\Explore\Explore\3dgamekit_Explore_Layer2_Stereo Out		
+	819317529	On	Pause	\Interactive Music Hierarchy\Default Work Unit\Music		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	151362964	PlayerHealth			\Default Work Unit\PlayerHealth	
+	321019979	NumberOfEnemies			\Default Work Unit\NumberOfEnemies	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	80058806	3dgamekit_Explore_Layer4_Guitar	D:\Graine_Ari_WwiseFinal_3DGameKit\3DGameKit\3DGameKit_Wwise\3DGameKit_Wwise\.cache\Mac\SFX\3dgamekit_Explore_Layer4_Guitar_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Explore\Explore\3dgamekit_Explore_Layer4_Guitar		10368064
+	127695452	3dgamekit_Boss_Phase2_Stereo Out	D:\Graine_Ari_WwiseFinal_3DGameKit\3DGameKit\3DGameKit_Wwise\3DGameKit_Wwise\.cache\Mac\SFX\3dgamekit_Boss_Phase2_Stereo Out_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Boss\3dgamekit_Boss_Phase2_Stereo Out\3dgamekit_Boss_Phase2_Stereo Out		2880064
+	141274375	3dgamekit_Explore_Intro_Stereo Out	D:\Graine_Ari_WwiseFinal_3DGameKit\3DGameKit\3DGameKit_Wwise\3DGameKit_Wwise\.cache\Mac\SFX\3dgamekit_Explore_Intro_Stereo Out_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Explore Reduced\3dgamekit_Explore_Intro_Stereo Out\3dgamekit_Explore_Intro_Stereo Out		4320064
+	172561134	PlayerLowHealth	D:\Graine_Ari_WwiseFinal_3DGameKit\3DGameKit\3DGameKit_Wwise\3DGameKit_Wwise\.cache\Mac\SFX\HMNHart_Human Heartbeat Thump Blood Pump_PSE_KCV1_f0n69_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerLowHealth		2330688
+	380924460	3dgamekit_Explore_Layer2_Stereo Out	D:\Graine_Ari_WwiseFinal_3DGameKit\3DGameKit\3DGameKit_Wwise\3DGameKit_Wwise\.cache\Mac\SFX\3dgamekit_Explore_Layer2_Stereo Out_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Explore\Explore\3dgamekit_Explore_Layer2_Stereo Out		11232064
+	382846264	3dgamekit_Explore_Layer1_Stereo Out	D:\Graine_Ari_WwiseFinal_3DGameKit\3DGameKit\3DGameKit_Wwise\3DGameKit_Wwise\.cache\Mac\SFX\3dgamekit_Explore_Layer1_Stereo Out_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Explore\Explore\3dgamekit_Explore_Layer1_Stereo Out		11232064
+	491173031	3dgamekit_Explore_Layer4_Perc	D:\Graine_Ari_WwiseFinal_3DGameKit\3DGameKit\3DGameKit_Wwise\3DGameKit_Wwise\.cache\Mac\SFX\3dgamekit_Explore_Layer4_Perc_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Explore\Explore\3dgamekit_Explore_Layer4_Perc		10368064
+	516260701	3dgamekit_Boss_Phase4_Stereo Out	D:\Graine_Ari_WwiseFinal_3DGameKit\3DGameKit\3DGameKit_Wwise\3DGameKit_Wwise\.cache\Mac\SFX\3dgamekit_Boss_Phase4_Stereo Out_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Boss\3dgamekit_Boss_Phase4_Stereo Out\3dgamekit_Boss_Phase4_Stereo Out		7488064
+	602695734	3dgamekit_Explore_Layer3_Stereo Out	D:\Graine_Ari_WwiseFinal_3DGameKit\3DGameKit\3DGameKit_Wwise\3DGameKit_Wwise\.cache\Mac\SFX\3dgamekit_Explore_Layer3_Stereo Out_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Explore\Explore\3dgamekit_Explore_Layer3_Stereo Out		11232064
+	718895455	3dgamekit_Boss_Transition_Stereo Out	D:\Graine_Ari_WwiseFinal_3DGameKit\3DGameKit\3DGameKit_Wwise\3DGameKit_Wwise\.cache\Mac\SFX\3dgamekit_Boss_Transition_Stereo Out_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Boss\3dgamekit_Boss_Transition_Stereo Out\3dgamekit_Boss_Transition_Stereo Out		1152064
+	1058873135	3dgamekit_Boss_Phase1_Stereo Out	D:\Graine_Ari_WwiseFinal_3DGameKit\3DGameKit\3DGameKit_Wwise\3DGameKit_Wwise\.cache\Mac\SFX\3dgamekit_Boss_Phase1_Stereo Out_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Boss\3dgamekit_Boss_Phase1_Stereo Out\3dgamekit_Boss_Phase1_Stereo Out		2880064
+	1062494367	3dgamekit_Boss_Phase3_Stereo Out	D:\Graine_Ari_WwiseFinal_3DGameKit\3DGameKit\3DGameKit_Wwise\3DGameKit_Wwise\.cache\Mac\SFX\3dgamekit_Boss_Phase3_Stereo Out_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Boss\3dgamekit_Boss_Phase3_Stereo Out\3dgamekit_Boss_Phase3_Stereo Out		7488064
+

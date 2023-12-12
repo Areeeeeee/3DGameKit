@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3438A0F4-9CEB-435C-BC3E-73C236E960EA}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{3438A0F4-9CEB-435C-BC3E-73C236E960EA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{4349D0C1-E1FD-4982-82C5-C85C2F3A6020}" WorkUnitID="{01738E41-EDB0-42E0-BEF4-98A6C19DBE38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Stingers" ID="{AB672B7D-0463-47F8-BBC4-6A30B16FB67C}">
+							<PropertyList>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb" ID="{6FEF0E69-F07B-4FEC-A123-82873B4A98E4}" WorkUnitID="{3438A0F4-9CEB-435C-BC3E-73C236E960EA}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Music" ID="{94FF727E-A72F-4B1C-94A2-C3F82712C110}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Snapshots" ID="{D8AF837B-8B61-4D5B-B0F1-E0E3F33DC83D}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="MusicUnderDialoge" ID="{CFDC91D5-1832-43AC-8263-C62DF88CB630}"/>
+										<CustomState Name="" ID="{9013302E-A820-4BA1-921D-16EF00134ACA}" ShortID="469690883">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-6"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MusicUnderStinger" ID="{8CC37C83-A359-4A80-81EA-C750D06024A5}"/>
+										<CustomState Name="" ID="{E30B5F38-9F0E-4B2D-9149-D55986DE870E}" ShortID="486803395">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-10"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Off" ID="{DB1AA533-2420-4BE7-B128-2F0E14E4295C}"/>
+										<CustomState Name="" ID="{A12F5F33-9541-4E12-A15C-A87ED2610BBF}" ShortID="711676131"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Dialouge" ID="{EFE109F6-FEE9-4336-B23C-DC66DC532035}">
+							<PropertyList>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb" ID="{6FEF0E69-F07B-4FEC-A123-82873B4A98E4}" WorkUnitID="{3438A0F4-9CEB-435C-BC3E-73C236E960EA}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</Bus>
+						<AuxBus Name="Reverb" ID="{6FEF0E69-F07B-4FEC-A123-82873B4A98E4}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise RoomVerb (Custom)" ID="{8409BEEC-1A5E-4B38-AE14-0BAAD10C3066}" ShortID="834243108" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

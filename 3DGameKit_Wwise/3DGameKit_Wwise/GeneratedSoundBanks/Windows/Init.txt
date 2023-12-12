@@ -1,0 +1,38 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	766723505	Game_State			\Default Work Unit\Game_State	
+	3092587493	Pause			\Default Work Unit\Pause	
+	3776881979	Explore_States			\Default Work Unit\Explore_States	
+
+State	ID	Name	State Group			Notes
+	161092836	ExploreIntro	Game_State			
+	579523862	Explore	Game_State			
+	748895195	None	Game_State			
+	1560169506	Boss	Game_State			
+	748895195	None	Pause			
+	930712164	Off	Pause			
+	1651971902	On	Pause			
+	748895195	None	Explore_States			
+	3298531297	Layer1	Explore_States			
+	3298531298	Layer2	Explore_States			
+	3298531299	Layer3	Explore_States			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1569207989	Reverb_Arena			\Default Work Unit\Master Audio Bus\Reverb_Arena	
+	1578973140	Reverb_Outdoor			\Default Work Unit\Master Audio Bus\Reverb_Outdoor	
+	2430239478	Reverb_SmallCave			\Default Work Unit\Master Audio Bus\Reverb_SmallCave	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	506891147	Plate_Small	Wwise RoomVerb			
+	2849147824	Medium	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

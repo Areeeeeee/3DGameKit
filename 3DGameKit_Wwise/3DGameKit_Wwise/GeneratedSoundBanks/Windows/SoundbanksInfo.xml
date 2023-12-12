@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Graine_Ari_WwiseFinal_3DGameKit\3DGameKit\3DGameKit_Wwise\3DGameKit_Wwise\</ProjectRoot>
+		<SourceFilesRoot>D:\Graine_Ari_WwiseFinal_3DGameKit\3DGameKit\3DGameKit_Wwise\3DGameKit_Wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Graine_Ari_WwiseFinal_3DGameKit\3DGameKit\3DGameKit_Wwise\3DGameKit_Wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Graine_Ari_WwiseFinal_3DGameKit\3DGameKit\3DGameKit_Wwise\3DGameKit_Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="4239215383">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1569207989" Name="Reverb_Arena" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Arena"/>
+				<AuxBus Id="1578973140" Name="Reverb_Outdoor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Outdoor"/>
+				<AuxBus Id="2430239478" Name="Reverb_SmallCave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_SmallCave"/>
+			</IncludedAuxBusses>
+		</SoundBank>
+		<SoundBank Id="4072029455" Language="SFX" Hash="857795527">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3092587493" Name="Pause" ObjectPath="\Events\Default Work Unit\Pause" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1651971902" Name="On" ObjectPath="\States\Default Work Unit\Pause\On"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="80058806" Language="SFX">
+							<ShortName>3dgamekit_Explore_Layer4_Guitar.wav</ShortName>
+							<Path>SFX\3dgamekit_Explore_Layer4_Guitar_D79FB2B7.wem</Path>
+						</File>
+						<File Id="127695452" Language="SFX">
+							<ShortName>3dgamekit_Boss_Phase2_Stereo Out.wav</ShortName>
+							<Path>SFX\3dgamekit_Boss_Phase2_Stereo Out_D79FB2B7.wem</Path>
+						</File>
+						<File Id="141274375" Language="SFX">
+							<ShortName>3dgamekit_Explore_Intro_Stereo Out.wav</ShortName>
+							<Path>SFX\3dgamekit_Explore_Intro_Stereo Out_D79FB2B7.wem</Path>
+						</File>
+						<File Id="172561134" Language="SFX">
+							<ShortName>HMNHart_Human Heartbeat Thump Blood Pump_PSE_KCV1_f0n69.wav</ShortName>
+							<Path>SFX\HMNHart_Human Heartbeat Thump Blood Pump_PSE_KCV1_f0n69_D79FB2B7.wem</Path>
+						</File>
+						<File Id="380924460" Language="SFX">
+							<ShortName>3dgamekit_Explore_Layer2_Stereo Out.wav</ShortName>
+							<Path>SFX\3dgamekit_Explore_Layer2_Stereo Out_D79FB2B7.wem</Path>
+						</File>
+						<File Id="382846264" Language="SFX">
+							<ShortName>3dgamekit_Explore_Layer1_Stereo Out.wav</ShortName>
+							<Path>SFX\3dgamekit_Explore_Layer1_Stereo Out_D79FB2B7.wem</Path>
+						</File>
+						<File Id="491173031" Language="SFX">
+							<ShortName>3dgamekit_Explore_Layer4_Perc.wav</ShortName>
+							<Path>SFX\3dgamekit_Explore_Layer4_Perc_D79FB2B7.wem</Path>
+						</File>
+						<File Id="516260701" Language="SFX">
+							<ShortName>3dgamekit_Boss_Phase4_Stereo Out.wav</ShortName>
+							<Path>SFX\3dgamekit_Boss_Phase4_Stereo Out_D79FB2B7.wem</Path>
+						</File>
+						<File Id="602695734" Language="SFX">
+							<ShortName>3dgamekit_Explore_Layer3_Stereo Out.wav</ShortName>
+							<Path>SFX\3dgamekit_Explore_Layer3_Stereo Out_D79FB2B7.wem</Path>
+						</File>
+						<File Id="718895455" Language="SFX">
+							<ShortName>3dgamekit_Boss_Transition_Stereo Out.wav</ShortName>
+							<Path>SFX\3dgamekit_Boss_Transition_Stereo Out_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1058873135" Language="SFX">
+							<ShortName>3dgamekit_Boss_Phase1_Stereo Out.wav</ShortName>
+							<Path>SFX\3dgamekit_Boss_Phase1_Stereo Out_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1062494367" Language="SFX">
+							<ShortName>3dgamekit_Boss_Phase3_Stereo Out.wav</ShortName>
+							<Path>SFX\3dgamekit_Boss_Phase3_Stereo Out_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{9ACC6123-B8D8-46E2-B2A5-80910533AF44}">
+							<Media>
+								<File Id="80058806"/>
+								<File Id="380924460"/>
+								<File Id="382846264"/>
+								<File Id="491173031"/>
+								<File Id="602695734"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0D8D8182-8DEB-4591-8CC0-3CB9F45831EF}">
+							<Media>
+								<File Id="127695452"/>
+								<File Id="516260701"/>
+								<File Id="718895455"/>
+								<File Id="1058873135"/>
+								<File Id="1062494367"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BA6732B3-ED2A-497B-AD76-22B5BB1AF458}">
+							<Media>
+								<File Id="80058806"/>
+								<File Id="380924460"/>
+								<File Id="382846264"/>
+								<File Id="491173031"/>
+								<File Id="602695734"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{6EACA1D7-AB33-4200-8212-3AC229C81C53}">
+							<Media>
+								<File Id="141274375"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="161092836" Name="ExploreIntro" ObjectPath="\States\Default Work Unit\Game_State\ExploreIntro"/>
+						<ActionSetStateEntry Id="3298531297" Name="Layer1" ObjectPath="\States\Default Work Unit\Explore_States\Layer1"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4243229219" Name="Play_StartSFX" ObjectPath="\Events\Default Work Unit\Play_StartSFX" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="172561134" Language="SFX">
+							<ShortName>HMNHart_Human Heartbeat Thump Blood Pump_PSE_KCV1_f0n69.wav</ShortName>
+							<Path>SFX\HMNHart_Human Heartbeat Thump Blood Pump_PSE_KCV1_f0n69_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2850775519" Name="Set_State_Layer_01" ObjectPath="\Events\Default Work Unit\Set_State_Layer_01" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3298531297" Name="Layer1" ObjectPath="\States\Default Work Unit\Explore_States\Layer1"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2850775516" Name="Set_State_Layer_02" ObjectPath="\Events\Default Work Unit\Set_State_Layer_02" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3298531298" Name="Layer2" ObjectPath="\States\Default Work Unit\Explore_States\Layer2"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2850775517" Name="Set_State_Layer_03" ObjectPath="\Events\Default Work Unit\Set_State_Layer_03" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3298531299" Name="Layer3" ObjectPath="\States\Default Work Unit\Explore_States\Layer3"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1817020445" Name="SetStateBoss" ObjectPath="\Events\Default Work Unit\SetStateBoss" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Game_State\Boss"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3612438723" Name="SetStateExplore" ObjectPath="\Events\Default Work Unit\SetStateExplore" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="579523862" Name="Explore" ObjectPath="\States\Default Work Unit\Game_State\Explore"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3922700271" Name="SetStateExploreReduced" ObjectPath="\Events\Default Work Unit\SetStateExploreReduced" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="161092836" Name="ExploreIntro" ObjectPath="\States\Default Work Unit\Game_State\ExploreIntro"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1917263390" Name="StopMusic" ObjectPath="\Events\Default Work Unit\StopMusic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3412868374" Name="UnPause" ObjectPath="\Events\Default Work Unit\UnPause" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="930712164" Name="Off" ObjectPath="\States\Default Work Unit\Pause\Off"/>
+					</ActionSetState>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="151362964" Name="PlayerHealth" ObjectPath="\Game Parameters\Default Work Unit\PlayerHealth"/>
+				<GameParameter Id="321019979" Name="NumberOfEnemies" ObjectPath="\Game Parameters\Default Work Unit\NumberOfEnemies"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="161092836" Name="ExploreIntro" ObjectPath="\States\Default Work Unit\Game_State\ExploreIntro" GUID="{6EACA1D7-AB33-4200-8212-3AC229C81C53}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="579523862" Name="Explore" ObjectPath="\States\Default Work Unit\Game_State\Explore" GUID="{9ACC6123-B8D8-46E2-B2A5-80910533AF44}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="766723505" Name="Game_State" ObjectPath="\States\Default Work Unit\Game_State" GUID="{E79580B3-0DF9-4A0C-AE78-04D5D58B037C}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Game_State\None" GUID="{BA6732B3-ED2A-497B-AD76-22B5BB1AF458}"/>
+						<State Id="579523862" Name="Explore" ObjectPath="\States\Default Work Unit\Game_State\Explore" GUID="{9ACC6123-B8D8-46E2-B2A5-80910533AF44}"/>
+						<State Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Game_State\Boss" GUID="{0D8D8182-8DEB-4591-8CC0-3CB9F45831EF}"/>
+						<State Id="161092836" Name="ExploreIntro" ObjectPath="\States\Default Work Unit\Game_State\ExploreIntro" GUID="{6EACA1D7-AB33-4200-8212-3AC229C81C53}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="930712164" Name="Off" ObjectPath="\States\Default Work Unit\Pause\Off" GUID="{8690A5F3-E1CB-4AF7-A29C-889815699EA0}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\Game_State\Boss" GUID="{0D8D8182-8DEB-4591-8CC0-3CB9F45831EF}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1651971902" Name="On" ObjectPath="\States\Default Work Unit\Pause\On" GUID="{AA591CB5-C411-42C4-8569-717163F39B13}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3298531297" Name="Layer1" ObjectPath="\States\Default Work Unit\Explore_States\Layer1" GUID="{187E3BC2-81FA-4AB7-9605-0293996B4256}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3298531298" Name="Layer2" ObjectPath="\States\Default Work Unit\Explore_States\Layer2" GUID="{91AD2103-71E7-4300-82B8-F29C4BF7E078}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3298531299" Name="Layer3" ObjectPath="\States\Default Work Unit\Explore_States\Layer3" GUID="{8A069417-E8B6-431E-981B-A0D0A944F821}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

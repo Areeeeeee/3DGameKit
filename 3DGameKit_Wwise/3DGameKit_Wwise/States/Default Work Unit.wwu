@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8AD78D50-4366-4F0B-B158-943487EF8C93}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{8AD78D50-4366-4F0B-B158-943487EF8C93}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8AD78D50-4366-4F0B-B158-943487EF8C93}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Explore_States" ID="{3F563E3C-99A0-4679-AB82-E2C467D9D4C4}">
+					<ChildrenList>
+						<State Name="None" ID="{6F011A31-071D-4D9D-8AF8-B5849308D239}"/>
+						<State Name="Layer1" ID="{187E3BC2-81FA-4AB7-9605-0293996B4256}"/>
+						<State Name="Layer2" ID="{91AD2103-71E7-4300-82B8-F29C4BF7E078}"/>
+						<State Name="Layer3" ID="{8A069417-E8B6-431E-981B-A0D0A944F821}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Game_State" ID="{E79580B3-0DF9-4A0C-AE78-04D5D58B037C}">
+					<ChildrenList>
+						<State Name="None" ID="{BA6732B3-ED2A-497B-AD76-22B5BB1AF458}"/>
+						<State Name="Explore" ID="{9ACC6123-B8D8-46E2-B2A5-80910533AF44}"/>
+						<State Name="Boss" ID="{0D8D8182-8DEB-4591-8CC0-3CB9F45831EF}"/>
+						<State Name="ExploreIntro" ID="{6EACA1D7-AB33-4200-8212-3AC229C81C53}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Pause" ID="{1912EE57-01D2-4E46-AA49-E43793FDD805}">
+					<ChildrenList>
+						<State Name="None" ID="{329689C4-685D-4D3B-BF76-F4CC2BF76266}"/>
+						<State Name="On" ID="{AA591CB5-C411-42C4-8569-717163F39B13}"/>
+						<State Name="Off" ID="{8690A5F3-E1CB-4AF7-A29C-889815699EA0}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

@@ -47,6 +47,8 @@ namespace Gamekit3D
         protected PlayerController m_Target = null;
         protected EnemyController m_Controller;
         protected TargetDistributor.TargetFollower m_FollowerInstance = null;
+        public SetWwiseRTPCnumEnemies _wwiseEnemyTracker;
+        private bool _lostTarget;
 
         protected void OnEnable()
         {
@@ -119,6 +121,9 @@ namespace Gamekit3D
                     TargetDistributor distributor = target.GetComponentInChildren<TargetDistributor>();
                     if (distributor != null)
                         m_FollowerInstance = distributor.RegisterNewFollower();
+                    _lostTarget = false;
+                    _wwiseEnemyTracker._numberOfEnemies = _wwiseEnemyTracker._numberOfEnemies + 1;
+                    Debug.Log("wwise RTPC + 1");
                 }
             }
             else
@@ -199,6 +204,13 @@ namespace Gamekit3D
             StopPursuit();
             m_Controller.SetTarget(originalPosition);
             m_Controller.SetFollowNavmeshAgent(true);
+            if (_lostTarget == false)
+            {
+                _wwiseEnemyTracker._numberOfEnemies = _wwiseEnemyTracker._numberOfEnemies - 1;
+                Debug.Log("wwise RTPC - 1");
+                _lostTarget = true;
+            }
+
         }
 
         public void TriggerAttack()
@@ -233,6 +245,8 @@ namespace Gamekit3D
 
         public void Death(Damageable.DamageMessage msg)
         {
+            _wwiseEnemyTracker._numberOfEnemies = _wwiseEnemyTracker._numberOfEnemies - 1;
+            Debug.Log("wwise RTPC - 1");
             Vector3 pushForce = transform.position - msg.damageSource;
 
             pushForce.y = 0;

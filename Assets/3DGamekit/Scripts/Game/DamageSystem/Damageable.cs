@@ -9,7 +9,7 @@ namespace Gamekit3D
 {
     public partial class Damageable : MonoBehaviour
     {
-
+        public bool _isPlayer;
         public int maxHitPoints;
         [Tooltip("Time that this gameObject is invulnerable for, after receiving damage.")]
         public float invulnerabiltyTime;
@@ -37,6 +37,8 @@ namespace Gamekit3D
 
         System.Action schedule;
 
+        public WwiseRTPCPlayerHealth _wwiseHealthRTPC;
+
         void Start()
         {
             ResetDamage();
@@ -54,6 +56,15 @@ namespace Gamekit3D
                     isInvulnerable = false;
                     OnBecomeVulnerable.Invoke();
                 }
+            }
+        }
+
+        private void FixedUpdate()
+        {
+            if (_isPlayer == true)
+            {
+                _wwiseHealthRTPC._health = currentHitPoints;
+
             }
         }
 

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{298CC349-40A0-4E9E-89EB-72FCB344ECAA}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{298CC349-40A0-4E9E-89EB-72FCB344ECAA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play" ID="{38DE1C31-036C-4C26-B6BB-6C318C6D2774}">
+					<ChildrenList>
+						<Action Name="" ID="{D037FBD2-C008-466A-85E9-A42B8131DDD1}" ShortID="463885258">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music Playlist Container" ID="{7251DEDF-F4F2-4298-B091-00FEF23E2703}" WorkUnitID="{7FB5A961-C908-4547-9562-8B1C30A5226F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayStinger" ID="{5D31980E-047E-40CC-B6C3-32C8DEE498C2}">
+					<ChildrenList>
+						<Action Name="" ID="{69865457-B2E1-4EC1-BB90-7E3CDACE4B5B}" ShortID="530714140">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stinger Segment" ID="{84D5B85C-060C-4936-BD0A-940BE68420D1}" WorkUnitID="{7FB5A961-C908-4547-9562-8B1C30A5226F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A6CD2F25-A213-4A6A-8DF7-4F1B5A08530D}" ShortID="547863367">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicUnderStinger" ID="{8CC37C83-A359-4A80-81EA-C750D06024A5}" WorkUnitID="{A66D1A39-3159-4200-82C9-9F778E855FA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{64FBE875-2628-42D8-BCA6-D39715B4BF01}" ShortID="656899643">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Off" ID="{DB1AA533-2420-4BE7-B128-2F0E14E4295C}" WorkUnitID="{A66D1A39-3159-4200-82C9-9F778E855FA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayDialouge" ID="{0BC9261E-3CDD-4A0D-8B0F-712A19C560CE}">
+					<ChildrenList>
+						<Action Name="" ID="{0C6C79C2-A53F-4E0E-8C69-05AD520E4E88}" ShortID="86674931">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sound SFX" ID="{163EDE48-A90B-4AF3-AD83-F3642F0AD8A5}" WorkUnitID="{18A89184-F7ED-4596-8431-7D9997DD8791}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8C998E35-6899-4AAD-8517-313C6D2A7519}" ShortID="469283418">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicUnderDialoge" ID="{CFDC91D5-1832-43AC-8263-C62DF88CB630}" WorkUnitID="{A66D1A39-3159-4200-82C9-9F778E855FA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3A42A43B-3B17-4EA8-8B0D-9FFC0FD82181}" ShortID="297497757">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Delay" Type="Real64" Value="10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Off" ID="{DB1AA533-2420-4BE7-B128-2F0E14E4295C}" WorkUnitID="{A66D1A39-3159-4200-82C9-9F778E855FA8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

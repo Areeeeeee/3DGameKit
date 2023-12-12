@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{18DEA217-F06F-4CD1-8688-589EEB9A9BCB}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{18DEA217-F06F-4CD1-8688-589EEB9A9BCB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{18DEA217-F06F-4CD1-8688-589EEB9A9BCB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{DBAE2F22-6EA7-4DD1-90F9-0E59D8BCCF6D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{1DCB4664-90BF-422A-8244-A3052012C638}" WorkUnitID="{B3692072-5396-4067-8C89-9AA787A857EE}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StopMusic" ID="{E8B42220-43D7-410F-A65F-0D1AE3FC4071}" WorkUnitID="{B3692072-5396-4067-8C89-9AA787A857EE}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_State_Layer_01" ID="{B0807379-074B-4E3E-AC2E-91B9EB04B81F}" WorkUnitID="{B3692072-5396-4067-8C89-9AA787A857EE}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_State_Layer_02" ID="{4E983DCA-1717-48E0-9459-8FF718DC9FF5}" WorkUnitID="{B3692072-5396-4067-8C89-9AA787A857EE}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_State_Layer_03" ID="{335FBA95-9A5E-43AF-9A63-FA1895578A00}" WorkUnitID="{B3692072-5396-4067-8C89-9AA787A857EE}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetStateExploreReduced" ID="{0D4EDB1D-A85B-49F8-B10F-47DF73F3E53D}" WorkUnitID="{B3692072-5396-4067-8C89-9AA787A857EE}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetStateExplore" ID="{A01DC7B8-1B12-48F7-B1CF-F44556A33CBE}" WorkUnitID="{B3692072-5396-4067-8C89-9AA787A857EE}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SetStateBoss" ID="{C6636294-F235-4BA2-A9BC-B7FAB034D167}" WorkUnitID="{B3692072-5396-4067-8C89-9AA787A857EE}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Pause" ID="{5E114203-901E-47CF-B3E0-750335E2CFAE}" WorkUnitID="{B3692072-5396-4067-8C89-9AA787A857EE}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UnPause" ID="{6B66CA70-188B-4163-8A6D-C82D4796EEE7}" WorkUnitID="{B3692072-5396-4067-8C89-9AA787A857EE}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="PlayerHealth" ID="{5357C5A1-0D68-419D-B8DA-8DBBE4E9287D}"/>
+							<Value>5</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="NumberOfEnemies" ID="{9D189BCD-AC5E-44AC-8BB1-B66B728084D4}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Layer1" ID="{187E3BC2-81FA-4AB7-9605-0293996B4256}"/>
+						<CurrentStateRef Name="Explore" ID="{9ACC6123-B8D8-46E2-B2A5-80910533AF44}"/>
+						<CurrentStateRef Name="Off" ID="{8690A5F3-E1CB-4AF7-A29C-889815699EA0}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

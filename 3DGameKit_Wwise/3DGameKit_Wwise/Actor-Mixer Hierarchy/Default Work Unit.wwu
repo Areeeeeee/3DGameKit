@@ -1,6 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FC11E487-0104-49E8-A6EC-D41700FE594E}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{FC11E487-0104-49E8-A6EC-D41700FE594E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FC11E487-0104-49E8-A6EC-D41700FE594E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="PlayerLowHealth" ID="{1C93F597-D5E1-4E7F-9B8B-60156D44C4AC}" ShortID="470778000">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{1CE99A41-7AC9-4C16-B0DA-EB752F90F397}" ShortID="85521042">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="PlayerHealth" ID="{5357C5A1-0D68-419D-B8DA-8DBBE4E9287D}" WorkUnitID="{4CA51D54-4A30-481B-A150-7F5FEA8440E4}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A051E901-D128-4B09-9F9E-7239F03CEC35}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-0.23164</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1.50572</XPos>
+												<YPos>-0.23164</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1.99392</XPos>
+												<YPos>-6.25224</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>2.49047</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5</XPos>
+												<YPos>-37.79279</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{70E995FC-21A4-475E-9F7F-C987FB3E479B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{E1D61319-B323-4874-B89E-2C97613A7716}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="HMNHart_Human Heartbeat Thump Blood Pump_PSE_KCV1_f0n69" ID="{53F91F84-0CF3-4D4D-8074-C88161656555}">
+							<Language>SFX</Language>
+							<AudioFile>HMNHart_Human Heartbeat Thump Blood Pump_PSE_KCV1_f0n69.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="172561134"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="HMNHart_Human Heartbeat Thump Blood Pump_PSE_KCV1_f0n69" ID="{53F91F84-0CF3-4D4D-8074-C88161656555}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

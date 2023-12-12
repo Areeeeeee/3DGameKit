@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F877885D-5EBA-43F5-A818-DEDA9E4A5B83}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{F877885D-5EBA-43F5-A818-DEDA9E4A5B83}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{51C513EC-9EEA-4B1F-90F3-6042321476E3}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play" ID="{38DE1C31-036C-4C26-B6BB-6C318C6D2774}" WorkUnitID="{298CC349-40A0-4E9E-89EB-72FCB344ECAA}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayStinger" ID="{5D31980E-047E-40CC-B6C3-32C8DEE498C2}" WorkUnitID="{298CC349-40A0-4E9E-89EB-72FCB344ECAA}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayDialouge" ID="{0BC9261E-3CDD-4A0D-8B0F-712A19C560CE}" WorkUnitID="{298CC349-40A0-4E9E-89EB-72FCB344ECAA}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Off" ID="{DB1AA533-2420-4BE7-B128-2F0E14E4295C}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

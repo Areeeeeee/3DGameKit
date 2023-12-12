@@ -1,6 +1,1569 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{47DCB02C-5D05-4C74-9C62-D65B2D7463A7}" SchemaVersion="103">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{47DCB02C-5D05-4C74-9C62-D65B2D7463A7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{47DCB02C-5D05-4C74-9C62-D65B2D7463A7}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="Music" ID="{BA73EAFC-2D98-4180-A65A-28938BB42635}" ShortID="1067203660">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{1F1C44DD-5DE8-4AFB-A8E4-220915B5A3ED}" ShortID="204019744">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="PlayerHealth" ID="{5357C5A1-0D68-419D-B8DA-8DBBE4E9287D}" WorkUnitID="{4CA51D54-4A30-481B-A150-7F5FEA8440E4}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F42872BC-AE81-49E0-ACE1-F0639D85FA28}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>58</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1.02387</XPos>
+												<YPos>56</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>3.00508</XPos>
+												<YPos>-99</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{E33430D3-0D92-498E-95B6-8AE51508E15D}" ShortID="748085221">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="NumberOfEnemies" ID="{9D189BCD-AC5E-44AC-8BB1-B66B728084D4}" WorkUnitID="{4CA51D54-4A30-481B-A150-7F5FEA8440E4}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{D3B8D3E2-0A4E-4A4E-A7A4-FA3A7F9F6CDB}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>25</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{70E995FC-21A4-475E-9F7F-C987FB3E479B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{513DF84D-0947-4E48-AD5D-C9FA257C98CB}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Explore" ID="{1292989F-A1A6-428D-B78A-08A87E42B84C}" ShortID="375514643">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{70E995FC-21A4-475E-9F7F-C987FB3E479B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Explore" ID="{D518FA20-9EAB-4B9D-8825-15B9273417E4}" ShortID="225789592">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="63187.5"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="80"/>
+										<Property Name="TimeSignatureLower" Type="int16" Value="8"/>
+										<Property Name="TimeSignatureUpper" Type="int16" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{70E995FC-21A4-475E-9F7F-C987FB3E479B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="3dgamekit_Explore_Layer1_Stereo Out" ID="{BF45A022-4D3C-4C6A-8718-9D3007A2063D}" ShortID="821591016">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3dgamekit_Explore_Layer1_Stereo Out" ID="{BA7D3BA2-F3A4-4208-813D-51891C07B5C3}">
+													<Language>SFX</Language>
+													<AudioFile>3dgamekit_Explore_Layer1_Stereo Out.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="382846264"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Explore_States" ID="{3F563E3C-99A0-4679-AB82-E2C467D9D4C4}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Layer2" ID="{91AD2103-71E7-4300-82B8-F29C4BF7E078}"/>
+														<CustomState Name="" ID="{77931571-248F-45FB-A2F1-98811D2337A8}" ShortID="189895205"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Layer3" ID="{8A069417-E8B6-431E-981B-A0D0A944F821}"/>
+														<CustomState Name="" ID="{E4205B48-93D1-4517-9417-8C2154EF6F9A}" ShortID="724278572"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Layer1" ID="{187E3BC2-81FA-4AB7-9605-0293996B4256}"/>
+														<CustomState Name="" ID="{87DBBCC9-288D-45C9-ADD9-96828224F424}" ShortID="391872397"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{403E52EB-A9CA-4623-9617-50DA2272622E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{C8E51A08-D580-4763-BE1D-1EF1AB454F7E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="3dgamekit_Explore_Layer1_Stereo Out" ID="{C524292F-0982-4FE4-92DF-F914B0971115}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="58500"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="783.316115702481"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="3dgamekit_Explore_Layer1_Stereo Out" ID="{BA7D3BA2-F3A4-4208-813D-51891C07B5C3}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="3dgamekit_Explore_Layer2_Stereo Out" ID="{9F37CD20-731E-46ED-8A71-354A9A2259FB}" ShortID="770467194">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3dgamekit_Explore_Layer2_Stereo Out" ID="{CD9A433B-1ACC-4274-B670-C916F3F9CBFE}">
+													<Language>SFX</Language>
+													<AudioFile>3dgamekit_Explore_Layer2_Stereo Out.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="380924460"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Explore_States" ID="{3F563E3C-99A0-4679-AB82-E2C467D9D4C4}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Layer2" ID="{91AD2103-71E7-4300-82B8-F29C4BF7E078}"/>
+														<CustomState Name="" ID="{A218F809-1ECE-484E-82E3-1F63E26CA261}" ShortID="79691175"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Layer3" ID="{8A069417-E8B6-431E-981B-A0D0A944F821}"/>
+														<CustomState Name="" ID="{BF40A329-0EA3-4F07-A1D6-167F9ACE2908}" ShortID="476621346"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Layer1" ID="{187E3BC2-81FA-4AB7-9605-0293996B4256}"/>
+														<CustomState Name="" ID="{8DA6DBE3-71BA-4E0D-AC64-207F741FDE25}" ShortID="642495939">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D62D147A-B1B4-4727-947D-8CB0562B11DE}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{31AA9B0F-6C93-4D6E-B6C6-2220B07154E0}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="3dgamekit_Explore_Layer2_Stereo Out" ID="{B01C147B-31EF-4ED4-983F-0ADE5ACF0B7E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="58500"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="979.145144628099"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="3dgamekit_Explore_Layer2_Stereo Out" ID="{CD9A433B-1ACC-4274-B670-C916F3F9CBFE}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="3dgamekit_Explore_Layer3_Stereo Out" ID="{BFFB0455-C8E9-4CE2-9B73-0CAD59FBDC23}" ShortID="33132516">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3dgamekit_Explore_Layer3_Stereo Out" ID="{BECEEB0B-3CD1-4FDD-AC4E-E5A607F8BB16}">
+													<Language>SFX</Language>
+													<AudioFile>3dgamekit_Explore_Layer3_Stereo Out.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="602695734"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Explore_States" ID="{3F563E3C-99A0-4679-AB82-E2C467D9D4C4}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Layer2" ID="{91AD2103-71E7-4300-82B8-F29C4BF7E078}"/>
+														<CustomState Name="" ID="{7A6DE190-53DC-434D-B28E-4DC73E90BD54}" ShortID="32533146">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Layer3" ID="{8A069417-E8B6-431E-981B-A0D0A944F821}"/>
+														<CustomState Name="" ID="{30CA6E4E-0EEA-4501-B332-A9E3F4AECFD8}" ShortID="432345781"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Layer1" ID="{187E3BC2-81FA-4AB7-9605-0293996B4256}"/>
+														<CustomState Name="" ID="{B95C410D-078E-41BF-A30D-94B5FDD0EB94}" ShortID="127949704">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{196B38E6-3342-46C7-9B9C-4C2AAA3F652A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{48FA5AA3-6859-472E-A36D-6C20BE119150}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="3dgamekit_Explore_Layer3_Stereo Out" ID="{81AB817F-0539-48F6-A97E-1761AFCD0931}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="58500"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="848.592458677682"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="3dgamekit_Explore_Layer3_Stereo Out" ID="{BECEEB0B-3CD1-4FDD-AC4E-E5A607F8BB16}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="3dgamekit_Explore_Layer4_Guitar" ID="{A6760D6B-DC55-4817-B899-F27784993132}" ShortID="1009159029">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{933B1427-7EB9-4A4D-AEF2-8C5E71C664D8}" ShortID="572444147">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="NumberOfEnemies" ID="{9D189BCD-AC5E-44AC-8BB1-B66B728084D4}" WorkUnitID="{4CA51D54-4A30-481B-A150-7F5FEA8440E4}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{BF8C45D3-2F04-474D-958B-FA85DC988658}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>2.98602</XPos>
+																		<YPos>0.05016</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>25</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3dgamekit_Explore_Layer4_Guitar" ID="{EE413F76-746C-41B6-A701-037FD047D036}">
+													<Language>SFX</Language>
+													<AudioFile>3dgamekit_Explore_Layer4_Guitar.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="80058806"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D0137BB2-78DA-4C87-A8D0-5E271A78CB89}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{AD0A542D-D083-4151-8757-1EF8BD6565CC}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="3dgamekit_Explore_Layer4_Guitar" ID="{286A9DCF-69C3-4F83-838A-14FCB57F4DBE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="54000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="130.55268595041"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="3dgamekit_Explore_Layer4_Guitar" ID="{EE413F76-746C-41B6-A701-037FD047D036}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="3dgamekit_Explore_Layer4_Perc" ID="{219FAC88-95DA-49ED-8EC8-F944C8F7CF8C}" ShortID="894632073">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{DEA97F2A-D4D1-44D4-B83E-76FED150AA06}" ShortID="161707800">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="NumberOfEnemies" ID="{9D189BCD-AC5E-44AC-8BB1-B66B728084D4}" WorkUnitID="{4CA51D54-4A30-481B-A150-7F5FEA8440E4}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{9F0D966F-D385-49F7-8310-79BEAA67CC7B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>2.85896</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>25</XPos>
+																		<YPos>1.358</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3dgamekit_Explore_Layer4_Perc" ID="{AC008389-E39E-4362-A10E-A0D5A300FD63}">
+													<Language>SFX</Language>
+													<AudioFile>3dgamekit_Explore_Layer4_Perc.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="491173031"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{41A107AF-79F7-418B-94D1-CFDDD9B62C2A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{F4238629-1033-41CA-82A0-2D9B073BE716}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="3dgamekit_Explore_Layer4_Perc" ID="{86678599-51FD-4AD2-AFA9-27CB4297FB6A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="54000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="195.829028925611"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="3dgamekit_Explore_Layer4_Perc" ID="{AC008389-E39E-4362-A10E-A0D5A300FD63}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{38336A26-C51A-4388-AF61-2FCA2BDA3C61}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{346CE1B0-67C0-423C-843F-A381AA85987A}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="54000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="" ID="{6329A77A-F48D-460D-A102-39E7410E634B}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="2"/>
+															<Property Name="TimeMs" Type="Real64" Value="9000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="" ID="{7A05A0A1-6AC2-464F-B3DA-7F189EB8E2D0}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="2"/>
+															<Property Name="TimeMs" Type="Real64" Value="18000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="" ID="{B1AFAAC0-54FE-453B-9D3F-93740283857F}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="2"/>
+															<Property Name="TimeMs" Type="Real64" Value="27000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="" ID="{9ADE0E50-F5D7-48C9-B50C-52047BC70E71}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="2"/>
+															<Property Name="TimeMs" Type="Real64" Value="36000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="" ID="{98DD4107-AACC-434C-A7BD-B683C43BDE84}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="2"/>
+															<Property Name="TimeMs" Type="Real64" Value="45000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="" ID="{2A5C675C-28C8-46CB-94BB-63DC7E90CEE8}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="2"/>
+															<Property Name="TimeMs" Type="Real64" Value="54000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{FBA58096-8562-4F2B-BC26-5952EC72CE74}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{F881647F-7585-46EB-8455-18E70D059F7F}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{1B591AA5-47FD-4A31-AD26-828D5794C73E}" ShortID="1001164026">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{B9AFB0C6-6812-4A1E-AD16-B591B669C4B7}" ShortID="609859501">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Explore" ID="{D518FA20-9EAB-4B9D-8825-15B9273417E4}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Boss" ID="{F6BF1460-8845-43D2-815E-826F6403B9E4}" ShortID="659593345">
+							<PropertyList>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="80"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{70E995FC-21A4-475E-9F7F-C987FB3E479B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="3dgamekit_Boss_Transition_Stereo Out" ID="{682EDAC7-5466-4AF3-80BA-293F6CCC5810}" ShortID="702162327">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="6000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{70E995FC-21A4-475E-9F7F-C987FB3E479B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="3dgamekit_Boss_Transition_Stereo Out" ID="{13C18FE6-A17F-474E-89E0-58DE8F00DCA9}" ShortID="583625918">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3dgamekit_Boss_Transition_Stereo Out" ID="{02D6ECA6-337D-47C7-B81B-ED993160044B}">
+													<Language>SFX</Language>
+													<AudioFile>3dgamekit_Boss_Transition_Stereo Out.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="718895455"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DE0EA737-943A-485F-B520-13FEBFBEE4EE}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5C266F15-EB9B-4D2C-BB51-1A0AFA608012}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="3dgamekit_Boss_Transition_Stereo Out" ID="{C19C619C-DDD8-491D-83F0-1E79012B3EEE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="6000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="1679.7520661157"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="3dgamekit_Boss_Transition_Stereo Out" ID="{02D6ECA6-337D-47C7-B81B-ED993160044B}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{4EB49AB7-43AD-4151-B53F-9FD9C90F34AF}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{30B1FD36-000A-4935-9D80-33DA05B921FC}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="3000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="3dgamekit_Boss_Phase1_Stereo Out" ID="{4E07F0F2-E07F-475A-A22E-11F31A4B6305}" ShortID="781905970">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="15000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{70E995FC-21A4-475E-9F7F-C987FB3E479B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="3dgamekit_Boss_Phase1_Stereo Out" ID="{E002887E-3319-451C-B1B6-534523DE25B9}" ShortID="895791313">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3dgamekit_Boss_Phase1_Stereo Out" ID="{58B5485E-6D8A-4868-B0B2-25A09D8C983E}">
+													<Language>SFX</Language>
+													<AudioFile>3dgamekit_Boss_Phase1_Stereo Out.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1058873135"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A7A6B2BD-6D1A-44F8-B21D-8C552C7A9811}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E2DEC5FD-A7CF-4876-9859-66646161B9D5}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="3dgamekit_Boss_Phase1_Stereo Out" ID="{471AF72A-C078-4C2A-973D-AC2D611E7403}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="12375"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="387.396694214873"/>
+																						<Property Name="FadeOutShape" Type="int16" Value="6"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="3dgamekit_Boss_Phase1_Stereo Out" ID="{58B5485E-6D8A-4868-B0B2-25A09D8C983E}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{96D2D8C7-5D78-4F0C-9C72-47730428D89B}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>12.375</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{BAD3A07D-6CE6-4C29-8169-C52C91F3214E}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>12.375</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{68452E38-1DDF-4DF2-BCD8-4233B89749C8}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>12.375</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E66E2A2F-045E-4DE9-BBCA-BC129D3FA6F3}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{F1490E9A-6A01-4D4A-B2E1-763F6601A055}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="12000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="3dgamekit_Boss_Phase2_Stereo Out" ID="{D0FB523E-BD24-41B2-B844-D7CE8EBB7E4E}" ShortID="836790050">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="15000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{70E995FC-21A4-475E-9F7F-C987FB3E479B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="3dgamekit_Boss_Phase2_Stereo Out" ID="{1ABE1FC1-5FF2-4424-BDBA-37FF1353C0F0}" ShortID="201928007">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3dgamekit_Boss_Phase2_Stereo Out" ID="{A2E0B7CC-B385-42B2-9BF8-C729329BE9F5}">
+													<Language>SFX</Language>
+													<AudioFile>3dgamekit_Boss_Phase2_Stereo Out.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="127695452"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{8EAF3C44-3B1E-496A-B5C9-79110ADFD915}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9C1D8C79-980F-42F3-82EE-950A60FFAD84}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="3dgamekit_Boss_Phase2_Stereo Out" ID="{D0A580F9-462E-4A4F-BB6F-5CB759CC265A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="12375"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="356.404958677685"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="3dgamekit_Boss_Phase2_Stereo Out" ID="{A2E0B7CC-B385-42B2-9BF8-C729329BE9F5}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{AC698940-D80F-4849-BC6E-4AF522BC8DF3}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>12.375</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{B75CBDB2-7B5D-4211-BE04-67E2E8F04C8A}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>12.375</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{FB4A0838-C110-4057-80AA-29FED020D40C}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>12.375</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{F9EA2519-6259-49A7-90C0-0F306B3AFA61}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{CA858213-971D-4604-9F07-9761B45B73C6}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="12000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="3dgamekit_Boss_Phase3_Stereo Out" ID="{2DD7DBD5-102B-4247-90F4-E1B0BBB47E3B}" ShortID="649310356">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="39000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{70E995FC-21A4-475E-9F7F-C987FB3E479B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="3dgamekit_Boss_Phase3_Stereo Out" ID="{113532C0-A69F-498E-A060-1D04F03C391B}" ShortID="989205415">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3dgamekit_Boss_Phase3_Stereo Out" ID="{285C533F-A0A2-4FAB-A47A-ADFC74423631}">
+													<Language>SFX</Language>
+													<AudioFile>3dgamekit_Boss_Phase3_Stereo Out.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1062494367"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DE8F3830-079C-4DE4-9376-74387EF03BD0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{CFE13F44-FB5E-4FC1-802E-4119D1BE83DE}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="3dgamekit_Boss_Phase3_Stereo Out" ID="{BB6D2BAB-D336-462B-9C74-FDD7D372F496}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="39000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="2779.95867768595"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="3dgamekit_Boss_Phase3_Stereo Out" ID="{285C533F-A0A2-4FAB-A47A-ADFC74423631}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{4107B919-DCDD-4B8F-B7C1-A21A5985DFAD}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{8D02F812-9D13-494F-87BC-F00E5BE396B5}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="36000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="3dgamekit_Boss_Phase4_Stereo Out" ID="{4E961FE1-1AD7-4ACF-AE94-40E41D23A126}" ShortID="944158797">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="39000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{70E995FC-21A4-475E-9F7F-C987FB3E479B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="3dgamekit_Boss_Phase4_Stereo Out" ID="{41599AC8-D51F-41BE-B380-EA42327C6A08}" ShortID="501613298">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3dgamekit_Boss_Phase4_Stereo Out" ID="{1937AC3F-372C-4FB9-8A5A-3BBD46F7C46E}">
+													<Language>SFX</Language>
+													<AudioFile>3dgamekit_Boss_Phase4_Stereo Out.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="516260701"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{CB611C0E-6256-4915-B4DA-DC7DB856FD24}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{A7CFA785-F55C-49BE-A4A7-A86DAC802EA5}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="3dgamekit_Boss_Phase4_Stereo Out" ID="{C67A23DC-6488-43E3-86A0-7C97E3FC4593}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="39000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="2779.95867768595"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="3dgamekit_Boss_Phase4_Stereo Out" ID="{1937AC3F-372C-4FB9-8A5A-3BBD46F7C46E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{AFA544BA-414B-42FA-85B2-12C81BAB28D8}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{16105B72-0B27-44C7-9778-01D9765D1573}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="36000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{3C881B44-6848-4A46-A80B-3B1245F574E1}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{042FBF98-3948-48EF-B7DB-E23C32EA316F}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{18171C34-8636-424B-8C37-FE6DE8DF9029}" ShortID="1009258110">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{B55547C6-4047-46BE-994C-9E58426A42E3}" ShortID="349280960">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="3dgamekit_Boss_Phase1_Stereo Out" ID="{4E07F0F2-E07F-475A-A22E-11F31A4B6305}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{AFEE1400-2202-4412-BE95-E9866D92AF36}" ShortID="63793334">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="3dgamekit_Boss_Phase2_Stereo Out" ID="{D0FB523E-BD24-41B2-B844-D7CE8EBB7E4E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{BBCDFA02-F052-4E0D-90B0-ACC5BC5C6119}" ShortID="202570239">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="3dgamekit_Boss_Phase3_Stereo Out" ID="{2DD7DBD5-102B-4247-90F4-E1B0BBB47E3B}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{66E29E6B-3414-4C6A-9B8D-B396F72C750A}" ShortID="762284381">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="3dgamekit_Boss_Phase4_Stereo Out" ID="{4E961FE1-1AD7-4ACF-AE94-40E41D23A126}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Explore Reduced" ID="{5994F79A-6880-427A-A97F-ECA509C6BC1B}" ShortID="787366748">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{70E995FC-21A4-475E-9F7F-C987FB3E479B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="3dgamekit_Explore_Intro_Stereo Out" ID="{43B5592D-36E6-4887-9AF3-384445DC7CC4}" ShortID="784188392">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="22500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{70E995FC-21A4-475E-9F7F-C987FB3E479B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="3dgamekit_Explore_Intro_Stereo Out" ID="{D9E101B8-7192-41CC-9221-21E59DA90DB7}" ShortID="933746773">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D4A3A3E9-482E-4F64-B30B-E5F4B87D8722}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3dgamekit_Explore_Intro_Stereo Out" ID="{6C19F52C-ED4F-4B3C-B056-2D3CF4011F8F}">
+													<Language>SFX</Language>
+													<AudioFile>3dgamekit_Explore_Intro_Stereo Out.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="141274375"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C16A44D2-1B15-420D-8440-8EC271CE9813}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{F839A940-1130-410D-8D3B-25053690D986}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="3dgamekit_Explore_Intro_Stereo Out" ID="{205641EE-441A-493D-9C7D-F541173E682D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="22500"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="3dgamekit_Explore_Intro_Stereo Out" ID="{6C19F52C-ED4F-4B3C-B056-2D3CF4011F8F}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{348FADFD-F4AD-405D-A55C-B00FC4573AF9}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{098941B4-FFA6-4C10-AF72-085E029516EF}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="18000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="" ID="{3D71D22B-05F5-4835-83E3-A59CC371BB7B}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="2"/>
+															<Property Name="TimeMs" Type="Real64" Value="18000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="" ID="{032182B1-0644-4089-8879-48430ED856EF}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="2"/>
+															<Property Name="TimeMs" Type="Real64" Value="9000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{9BA7CB7A-0B02-4BFE-9D1A-7652A3E94716}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{4A2E8F68-4D3C-43AA-898E-5852D0C3B7A4}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{10A29B7F-EEFD-43AF-839A-39ABF61174D1}" ShortID="310451601">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{CDC05C65-B7D7-44EB-B28B-B1E945C3018D}" ShortID="546779950">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="3dgamekit_Explore_Intro_Stereo Out" ID="{43B5592D-36E6-4887-9AF3-384445DC7CC4}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Pause" ID="{1912EE57-01D2-4E46-AA49-E43793FDD805}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="On" ID="{AA591CB5-C411-42C4-8569-717163F39B13}"/>
+								<CustomState Name="" ID="{43B3CC72-AD25-4F28-8ED2-F389017DC49C}" ShortID="819317529">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="-32"/>
+										<Property Name="Volume" Type="Real64" Value="-6"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Off" ID="{8690A5F3-E1CB-4AF7-A29C-889815699EA0}"/>
+								<CustomState Name="" ID="{70488E91-D4C3-4C37-9B6C-E280C8F3DCFF}" ShortID="138222791"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{6BD0EE25-0E48-4C9C-B68E-DAD35EEA3F0E}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{63D02DDD-72E6-4CEF-9387-0A949A652D3A}">
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{3577FCC6-4A1A-4FA9-B584-60688DE95395}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="5"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Explore" ID="{1292989F-A1A6-428D-B78A-08A87E42B84C}" WorkUnitID="{47DCB02C-5D05-4C74-9C62-D65B2D7463A7}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Explore Reduced" ID="{5994F79A-6880-427A-A97F-ECA509C6BC1B}" WorkUnitID="{47DCB02C-5D05-4C74-9C62-D65B2D7463A7}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{CF3BAD2A-80EB-4AEB-8343-DA6A748388BC}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="5"/>
+													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{E90DB0B6-2B38-4090-8FF3-2E7B5633B194}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="5"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Explore Reduced" ID="{5994F79A-6880-427A-A97F-ECA509C6BC1B}" WorkUnitID="{47DCB02C-5D05-4C74-9C62-D65B2D7463A7}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Explore" ID="{1292989F-A1A6-428D-B78A-08A87E42B84C}" WorkUnitID="{47DCB02C-5D05-4C74-9C62-D65B2D7463A7}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{0C03AC7F-2F97-4F88-86BD-23C52B2C3DD3}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="5"/>
+													<Property Name="FadeOffset" Type="Real64" Value="2"/>
+													<Property Name="FadeTime" Type="Real64" Value="3"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{64E038CA-04E3-42F9-81FE-94CED9A0AF31}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Boss" ID="{F6BF1460-8845-43D2-815E-826F6403B9E4}" WorkUnitID="{47DCB02C-5D05-4C74-9C62-D65B2D7463A7}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Explore" ID="{1292989F-A1A6-428D-B78A-08A87E42B84C}" WorkUnitID="{47DCB02C-5D05-4C74-9C62-D65B2D7463A7}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="3dgamekit_Boss_Transition_Stereo Out" ID="{682EDAC7-5466-4AF3-80BA-293F6CCC5810}" WorkUnitID="{47DCB02C-5D05-4C74-9C62-D65B2D7463A7}"/>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{DEEE0825-D524-4148-9FF4-810DCCFCB113}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="5"/>
+													<Property Name="FadeOffset" Type="Real64" Value="0.25"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{6780F3DE-FCA2-45C8-9728-F983913871EB}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Explore" ID="{1292989F-A1A6-428D-B78A-08A87E42B84C}" WorkUnitID="{47DCB02C-5D05-4C74-9C62-D65B2D7463A7}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Boss" ID="{F6BF1460-8845-43D2-815E-826F6403B9E4}" WorkUnitID="{47DCB02C-5D05-4C74-9C62-D65B2D7463A7}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{F4CB689C-D7C4-46F2-B116-AE817CDD0BD7}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="3"/>
+													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{193C81C9-2810-43EF-B707-72FA5E33D933}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="5"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<ArgumentList>
+						<ArgumentRef Name="Game_State" ID="{E79580B3-0DF9-4A0C-AE78-04D5D58B037C}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Explore" ID="{9ACC6123-B8D8-46E2-B2A5-80910533AF44}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Explore" ID="{1292989F-A1A6-428D-B78A-08A87E42B84C}" WorkUnitID="{47DCB02C-5D05-4C74-9C62-D65B2D7463A7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Boss" ID="{0D8D8182-8DEB-4591-8CC0-3CB9F45831EF}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Boss" ID="{F6BF1460-8845-43D2-815E-826F6403B9E4}" WorkUnitID="{47DCB02C-5D05-4C74-9C62-D65B2D7463A7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{BA6732B3-ED2A-497B-AD76-22B5BB1AF458}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Explore" ID="{1292989F-A1A6-428D-B78A-08A87E42B84C}" WorkUnitID="{47DCB02C-5D05-4C74-9C62-D65B2D7463A7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="ExploreIntro" ID="{6EACA1D7-AB33-4200-8212-3AC229C81C53}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Explore Reduced" ID="{5994F79A-6880-427A-A97F-ECA509C6BC1B}" WorkUnitID="{47DCB02C-5D05-4C74-9C62-D65B2D7463A7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4CA51D54-4A30-481B-A150-7F5FEA8440E4}" SchemaVersion="103">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{4CA51D54-4A30-481B-A150-7F5FEA8440E4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4CA51D54-4A30-481B-A150-7F5FEA8440E4}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="NumberOfEnemies" ID="{9D189BCD-AC5E-44AC-8BB1-B66B728084D4}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="25"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="61"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="78"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="PlayerHealth" ID="{5357C5A1-0D68-419D-B8DA-8DBBE4E9287D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="5"/>
+						<Property Name="Max" Type="Real64" Value="5"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

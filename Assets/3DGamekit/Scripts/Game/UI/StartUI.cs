@@ -16,6 +16,8 @@ namespace Gamekit3D
         public GameObject optionsCanvas;
         public GameObject controlsCanvas;
         public GameObject audioCanvas;
+        public AK.Wwise.Event _pause;
+        public AK.Wwise.Event _unpause;
 
         protected bool m_InPause;
         protected PlayableDirector[] m_Directors;
@@ -82,15 +84,19 @@ namespace Gamekit3D
                 if (m_Directors[i].state == PlayState.Playing && !m_InPause)
                 {
                     m_Directors[i].Pause ();
+                    //_pause.Post(this.gameObject);
+
                 }
                 else if(m_Directors[i].state == PlayState.Paused && m_InPause)
                 {
                     m_Directors[i].Resume ();
+                    //_unpause.Post(this.gameObject);
                 }
             }
             
             if(!m_InPause)
                 CameraShake.Stop ();
+
 
             if (m_InPause)
                 PlayerInput.Instance.GainControl();

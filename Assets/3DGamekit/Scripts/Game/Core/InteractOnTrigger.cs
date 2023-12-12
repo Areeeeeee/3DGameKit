@@ -12,6 +12,7 @@ namespace Gamekit3D
         public UnityEvent OnEnter, OnExit;
         new Collider collider;
         public InventoryController.InventoryChecker[] inventoryChecks;
+        public AK.Wwise.Event MusicStateChange;
 
         void Reset()
         {
@@ -34,6 +35,7 @@ namespace Gamekit3D
             for (var i = 0; i < inventoryChecks.Length; i++)
             {
                 inventoryChecks[i].CheckInventory(other.GetComponentInChildren<InventoryController>());
+                MusicStateChange.Post(this.gameObject);
             }
         }
 

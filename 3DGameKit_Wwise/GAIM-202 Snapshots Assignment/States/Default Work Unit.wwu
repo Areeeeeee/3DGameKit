@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A66D1A39-3159-4200-82C9-9F778E855FA8}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{A66D1A39-3159-4200-82C9-9F778E855FA8}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Snapshots" ID="{D8AF837B-8B61-4D5B-B0F1-E0E3F33DC83D}">
+					<ChildrenList>
+						<State Name="None" ID="{9A0B9E66-2B96-47D6-9297-6BCFC4A06DE1}"/>
+						<State Name="Off" ID="{DB1AA533-2420-4BE7-B128-2F0E14E4295C}"/>
+						<State Name="MusicUnderDialoge" ID="{CFDC91D5-1832-43AC-8263-C62DF88CB630}"/>
+						<State Name="MusicUnderStinger" ID="{8CC37C83-A359-4A80-81EA-C750D06024A5}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

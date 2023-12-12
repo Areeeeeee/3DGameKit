@@ -42,8 +42,8 @@ namespace Gamekit3D
         protected bool m_PreviouslyGrounded = true;    // Whether or not Ellen was standing on the ground last frame.
         protected bool m_ReadyToJump;                  // Whether or not the input state and Ellen are correct to allow jumping.
         protected float m_DesiredForwardSpeed;         // How fast Ellen aims be going along the ground based on input.
-        protected float m_ForwardSpeed;                // How fast Ellen is currently going along the ground.
-        protected float m_VerticalSpeed;               // How fast Ellen is currently moving up or down.
+        public float m_ForwardSpeed;                // How fast Ellen is currently going along the ground.
+        public float m_VerticalSpeed;               // How fast Ellen is currently moving up or down.
         protected PlayerInput m_Input;                 // Reference used to determine how Ellen should move.
         protected CharacterController m_CharCtrl;      // Reference used to actually move Ellen.
         protected Animator m_Animator;                 // Reference used to make decisions based on Ellen's current animation and to set parameters.
@@ -268,6 +268,7 @@ namespace Gamekit3D
 
             // Set the animator parameter to control what animation is being played.
             m_Animator.SetFloat(m_HashForwardSpeed, m_ForwardSpeed);
+
         }
 
         // Called each physics step.
